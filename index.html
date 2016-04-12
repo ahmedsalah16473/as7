@@ -5,7 +5,7 @@
   if((document.login.username.value="as")&&(document.login.password.value="as")) 
  index1.html;
   else
-  ;
+      document.getElementById("false").innerHTML = "wrong username or password";
    
   }
   }
@@ -19,6 +19,7 @@
 <input type="text" name="username" size="20"/><br/>
 <h1>passward:</h1><br/>
 <input type="text" name="password" size="20"/><br/><br/>
+<br/><p id="false"></p>
 <input type="button" value="login" onclick="myfunction()">
 </for
 </div>
